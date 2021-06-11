@@ -53,13 +53,16 @@ a{
     
 }
 .searchbar{
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .searchicon{
     height: 15px;
     width: 15px;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    
 }
 #search-input{ 
     width: 400px;
@@ -67,6 +70,8 @@ a{
     margin-top: 15px;
     border-radius: 15px;  
     border-style: solid;
+    position: relative;
+    right: 20px;
     
 }
 
