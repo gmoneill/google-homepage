@@ -1,0 +1,113 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: black;
+}
+
+a{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about{
+    margin-left: 20px;
+}
+
+.navbar-left{
+    display: inline-block;   
+    margin-top: 15px; 
+}
+.navbar-right{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}   
+
+.sign-in{
+    background-color: #1a73e8;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 18px;
+   
+    
+}
+.logo{
+    text-align: center;
+    margin-top: 150px;
+    
+}
+.searchbar{
+    text-align: center;
+    
+}
+#search-input{ 
+    width: 400px;
+    padding: 8px 3px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.search-buttons{
+    text-align: center;
+    margin-top: 25px;
+   
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+.lucky-button{
+    background-color: #f8f9fa;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-color: white;
+    
+    
+}
+footer{
+    display: inline-block;  
+    background-color: rgb(165, 157, 157);
+   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #4c4c4c;
+    
+}
+
+.footer-left{
+    display: inline-block;  
+    float: left;
+    
+    
+}
+
+.footer-right{
+    display: inline-block;  
+    float: right;
+}
