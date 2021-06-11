@@ -1,5 +1,6 @@
 body{
     font-family: arial, helvetica, sans-serif;
+    font-weight:lighter;
 }
 
 a:link{
@@ -42,7 +43,8 @@ a{
     border-radius: 8px;
     color: white;
     margin-right: 18px;
-   
+    border-style: solid; 
+    border-color: white; 
     
 }
 .logo{
@@ -54,17 +56,23 @@ a{
     text-align: center;
     
 }
+
+.searchicon{
+    height: 15px;
+    width: 15px;
+}
 #search-input{ 
     width: 400px;
     padding: 8px 3px;
     margin-top: 15px;
-    border-radius: 15px;
+    border-radius: 15px;  
+    border-style: solid;
+    
 }
 
 .search-buttons{
     text-align: center;
     margin-top: 25px;
-   
 }
 
 .search-button{
@@ -73,7 +81,7 @@ a{
     padding: 5px;
     border-radius: 5px;
     border-color: white;
-
+    border-style: solid;
 }
 
 .lucky-button{
@@ -83,6 +91,7 @@ a{
     font-size: 14px;
     border-radius: 5px;
     border-color: white;
+    border-style: solid;
     
     
 }
